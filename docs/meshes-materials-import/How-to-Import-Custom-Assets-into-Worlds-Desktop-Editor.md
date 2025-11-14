@@ -117,7 +117,7 @@ The same steps can be followed in other image editing programs such as Photoshop
 1. **Open a texture in GIMP.**
 
 2. Click **Channels**.  
-   ![Channels](https://iili.io/K2ffu6v.png)
+   ![Channels](./images/Importing%20Custom%20Assets%20into%20Worlds%20Desktop%20Editor_one.png)
 
 3. You should see your **Red, Green, and Blue channels**.  
    - If you need an **Alpha channel** but don’t see one:  
@@ -130,7 +130,7 @@ The same steps can be followed in other image editing programs such as Photoshop
    - If you click on a channel, it will be deselected (turn grey).  
    - Deselect **Red, Green, and Blue** by clicking on them.  
    - Your Channels should look like the image displayed below.  
-   ![Alpha Channel Selected](https://iili.io/K2fndOB.png)
+   ![Alpha Channel Selected](./images/Importing%20Custom%20Assets%20into%20Worlds%20Desktop%20Editor_two.png)
 
 5. Now you can define values for the Alpha channel:  
    - Fill with **white** → Roughness = 1 (fully rough).  
@@ -152,12 +152,12 @@ The same steps can be followed in other image editing programs such as Photoshop
 
    d. Your layer now has two preview icons. The mask layer should be selected by default.  
       - Click between the icons if unsure—it should be clear which is active.  
-      ![Mask Selected](https://iili.io/K2foLGe.png)
+      ![Mask Selected](./images/Importing%20Custom%20Assets%20into%20Worlds%20Desktop%20Editor_three.png)
 
    e. Paste (**Ctrl+V**) the roughness texture.  
       - It will appear as a floating layer.  
       - Click the **green anchor icon** at the bottom of the Layers window to anchor it in place.
-      ![Anchor Icon](https://iili.io/K2fxtVt.png)
+      ![Anchor Icon](./images/Importing%20Custom%20Assets%20into%20Worlds%20Desktop%20Editor_four.png)
 
    f. That’s it! If you look at the Alpha Channel, you’ll see the values match your roughness texture.  
 
@@ -220,7 +220,7 @@ The same steps can be followed in other image editing programs such as Photoshop
 When opening your model in Blender, it’s a good idea to **apply scales, rotations, and positions** before export.  
 Although not strictly required, this helps ensure your model behaves predictably once it’s inside Horizon Worlds.  
 
-👉 *Tip: In Blender, you can do this quickly by selecting your model and applying transforms. ![Apply Transforms](https://iili.io/KdLgvWl.md.png)]
+👉 *Tip: In Blender, you can do this quickly by selecting your model and applying transforms. ![Apply Transforms](./images/Importing%20Custom%20Assets%20into%20Worlds%20Desktop%20Editor_five.png)]
 
 ### Verifying Material Names in Blender
 
@@ -237,7 +237,7 @@ Even if you named your textures properly, Blender may assign materials with diff
 
 👉 *Tip: This step ensures the FBX will carry the correct material names into Horizon Worlds. Skipping it can cause materials to import incorrectly.*  
 
-![Verify Material Names](https://iili.io/KdZuBqX.png)
+![Verify Material Names](./images/Importing%20Custom%20Assets%20into%20Worlds%20Desktop%20Editor_six.png)
 
 
 ---
@@ -305,13 +305,13 @@ Now that your asset has been exported from Blender or Unity, it’s time to brin
 ### Import the FBX and Textures
 1. In the **Asset Library**, click the **Add New** dropdown menu.  
 2. Choose **3D Model**.  
-![Add New 3D Model](https://iili.io/K2nlLLF.png)
+![Add New 3D Model](./images/Importing%20Custom%20Assets%20into%20Worlds%20Desktop%20Editor_seven.png)
 3. In the Import window, click **Choose Files on Your Device**.  
 4. Select your **FBX file** *and* all the necessary **textures**.  
    - If the files are in different folders, you can add them one by one.  
    - ⚠️ Don’t click **Import** until *all files* (FBX + textures) are listed in the Import Model(s) window.  
 5. Once everything is listed, click the **blue Import button**.  
-![Example Assets](https://iili.io/K2n1yxI.md.png)
+![Example Assets](./images/Importing%20Custom%20Assets%20into%20Worlds%20Desktop%20Editor_eight.png)
 
 ---
 
